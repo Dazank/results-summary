@@ -1,0 +1,137 @@
+*{box-sizing: border-box;}
+
+.container{
+    width:750px;
+    height:500px;
+margin:auto;
+display:flex;
+margin-top: 50px;
+margin-bottom:50px;}
+
+.card1{
+    
+    height:500px;
+    width:375px;
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%),  hsl(241, 81%, 54%) );
+    border-radius: 22px;
+    
+    
+}
+.card2{
+    height:500px;
+    width:375px;
+    border-radius: 22px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+   border-right: hsla(223.64, 84.62%, 97.45%,0.1) outset 10px;
+   border-bottom:hsla(223.64, 84.62%, 97.45%,0.1) outset 10px ;
+    
+}
+.circle{ 
+    height:190px;
+    width:190px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    border-radius: 50%;
+    padding-top:70px;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
+    position: relative;
+}
+body{
+    font-family:'Hanken Grotesk';
+}
+.result,.great,.higher{
+    align-self: center;
+}
+.result{
+    font-weight: 700;
+    font-size: x-large;
+    color:rgb(202,194,255);
+}
+.sevensix{
+    font-size:80px;
+    font-weight:700;
+    color:white;
+    
+}
+.circletext{
+text-align: center;
+height:200px;
+width:100px;
+align-self: center;
+margin-left: auto;
+margin-right: auto;
+margin-top:-45px;
+color: rgb(136,123,255);
+font-weight:800;
+font-size: 20px;
+}
+
+.great{
+    color:white;
+}
+
+.higher{color:rgb(202,194,255);
+text-align: center;
+font-weight:500;
+font-size: large;
+width:250px;
+margin-top: -5px;}
+
+.summary{
+   margin-left:-180px;
+   margin-top:-12px;
+}
+
+.box{
+    display:flex;
+border:solid purple 2px;
+justify-content: space-between;
+width:300px;
+border-radius:12px;
+align-items: center; 
+font-size:larger;
+font-weight: 700;
+padding-right: 30px;
+padding-left:10px;
+border-style: ridge;}
+
+.reaction{background-color:hsla(0, 100%, 67%, 0.1) ;
+    color:hsl(0, 100%, 67%) ;
+margin-top:-35px;
+border:hsla(0, 100%, 67%, 0.1) ;
+}
+.memory{background-color:hsla(39, 100%, 56%, 0.1) ;
+  color:hsl(39, 100%, 56%) ;
+  border:hsla(39, 100%, 56%, 0.1) ;
+
+}
+.verbal{background-color:hsla(166, 100%, 37%, 0.1) ;
+   color: hsl(166, 100%, 37%) ;
+   border:hsla(166, 100%, 37%, 0.1) ;
+}
+.visual{background-color:hsla(234, 85%, 45%, 0.1) ;
+  color:  hsl(234, 85%, 45%) ;
+  border:hsla(234, 85%, 45%, 0.1) ;
+}
+
+.button{
+    width:300px;
+    height:60px;
+    border-radius:30px;
+    font-size: large;
+    font-weight: 500;
+    color:white;
+    background-color:hsl(224, 30%, 27%) ;
+}
+.blacken{
+    color:black
+}
+.text{
+    color:gray;
+}
